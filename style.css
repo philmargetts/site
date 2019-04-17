@@ -1,0 +1,36 @@
+:root {
+    --textcol: #E6E6E6;
+	--bg: #333333;
+	--altbg:#292934;
+	--link: #97bef9;
+	--linkalt: #5982c1;
+}
+
+html {
+	background: var(--bg);
+	color: var(--textcol);
+	font-family: georgia;
+}
+
+body {
+	max-width: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	overflow: none;
+}
+
+a {
+	color: var(--link);
+	text-decoration: none;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+@media only screen and (max-width: 1150px) {
+	body {
+		max-width: 90%;
+	}
+}
