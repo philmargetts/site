@@ -1,1 +1,1 @@
-Repository for philmargetts.com, served using GitHub Pages.
+Repository for [philmargetts.com](philmargetts.com), served using GitHub Pages.
